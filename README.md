@@ -1,4 +1,4 @@
-# GeneralAnalytics
+# General Analytics
 General Analytics using Python
 
 This is a General Analytics repository using Python.
