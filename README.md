@@ -1,9 +1,6 @@
 # General Analytics
-General Analytics using Python
 
-This is a General Analytics repository using Python.
-
-In this, i have used students marks, Observation and Compliment data.
+In this project, i have used students marks, Observation and Compliment data.
 
 Marks : Academic marks for the student
 Observation : Teacher makes observation on student
