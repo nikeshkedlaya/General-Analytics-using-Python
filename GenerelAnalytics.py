@@ -6,11 +6,11 @@ import ast
 import json
 
 # import observation csv file
-obs_df = pd.read_csv("../observations_with_teachers.csv")
+obs_df = pd.read_csv("observations_with_teachers.csv")
 obs_df['Sentiment'] = 0
 
 # import student marks csv file
-student_marks = pd.read_csv("../student_marks.csv")
+student_marks = pd.read_csv("student_marks.csv")
 
 studentDict = {}
 teacherDict = {}
@@ -158,7 +158,7 @@ def get_sentiment_summary_teacher(teacher_code, type='pos'):
 Function to process the students compliments
 """
 def process_compliment_csv():
-    compliment_df = pd.read_csv("../compliment.csv")
+    compliment_df = pd.read_csv("compliment.csv")
     compliment_df['Sentiment'] = 0
 
     sid = SentimentIntensityAnalyzer()
