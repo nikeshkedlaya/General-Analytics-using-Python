@@ -1,4 +1,4 @@
-# General Analytics
+# Simple Analytics
 
 In this project, i have used students marks, Observation and Compliment data.
 
